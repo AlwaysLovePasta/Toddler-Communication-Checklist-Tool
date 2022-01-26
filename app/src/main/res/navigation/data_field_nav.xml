@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/data_field_nav"
+    app:startDestination="@id/addToddlerStep01">
+
+    <fragment
+        android:id="@+id/addToddlerStep01"
+        android:name="com.example.TCCT.Fragments.AddToddlerStep01"
+        android:label="fragment_add_toddler_step01"
+        tools:layout="@layout/fragment_add_toddler_step01" >
+        <action
+            android:id="@+id/action_addToddlerStep01_to_addToddlerStep02"
+            app:destination="@id/addToddlerStep02"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/addToddlerStep02"
+        android:name="com.example.TCCT.Fragments.AddToddlerStep02"
+        android:label="fragment_add_toddler_step02"
+        tools:layout="@layout/fragment_add_toddler_step02" >
+        <action
+            android:id="@+id/action_addToddlerStep02_to_addToddlerStep03"
+            app:destination="@id/addToddlerStep03"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+    <fragment
+        android:id="@+id/addToddlerStep03"
+        android:name="com.example.TCCT.Fragments.AddToddlerStep03"
+        android:label="fragment_add_toddler_step03"
+        tools:layout="@layout/fragment_add_toddler_step03" >
+        <action
+            android:id="@+id/action_addToddlerStep03_to_addToddlerStep04"
+            app:destination="@id/addToddlerStep04"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+    <fragment
+        android:id="@+id/addToddlerStep04"
+        android:name="com.example.TCCT.Fragments.AddToddlerStep04"
+        android:label="fragment_add_toddler_step04"
+        tools:layout="@layout/fragment_add_toddler_step04" >
+        <action
+            android:id="@+id/action_addToddlerStep04_to_mainActivity"
+            app:destination="@id/mainActivity" />
+    </fragment>
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.TCCT.Activities.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+
+</navigation>

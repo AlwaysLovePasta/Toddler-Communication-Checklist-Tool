@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Genders -->
+    <string-array name="gender">
+        <item>男生</item>
+        <item>女生</item>
+    </string-array>
+
+    <!-- Residents -->
+    <string-array name="residents">
+        <item>基隆市</item>
+        <item>臺北市</item>
+        <item>新北市</item>
+        <item>桃園縣</item>
+        <item>新竹市</item>
+        <item>新竹縣</item>
+        <item>苗栗縣</item>
+        <item>臺中市</item>
+        <item>彰化縣</item>
+        <item>南投縣</item>
+        <item>雲林縣</item>
+        <item>嘉義市</item>
+        <item>嘉義縣</item>
+        <item>台南市</item>
+        <item>高雄市</item>
+        <item>屏東縣</item>
+        <item>台東縣</item>
+        <item>花蓮縣</item>
+        <item>宜蘭縣</item>
+        <item>澎湖縣</item>
+        <item>金門縣</item>
+        <item>連江縣</item>
+    </string-array>
+
+    <!-- Relationship -->
+    <string-array name="relationship">
+        <item>@string/dad</item>
+        <item>@string/mom</item>
+        <item>@string/grandpa</item>
+        <item>@string/grandma</item>
+        <item>其它</item>
+    </string-array>
+
+    <!-- Time -->
+    <string-array name="time">
+        <item>@string/time01</item>
+        <item>@string/time02</item>
+        <item>@string/time03</item>
+        <item>@string/time04</item>
+        <item>@string/time05</item>
+    </string-array>
+
+    <!-- Level -->
+    <string-array name="level">
+        <item>@string/dev01</item>
+        <item>@string/dev02</item>
+        <item>@string/dev03</item>
+        <item>@string/dev04</item>
+    </string-array>
+
+    <!-- Features -->
+    <string-array name="featureTitle">
+        <item>里程碑檢測</item>
+        <item>發展折線圖</item>
+        <item>發展里程碑</item>
+        <item>聊天機器人</item>
+        <item>其它</item>
+    </string-array>
+    <string-array name="featureDesc">
+        <item>透過不同月零階段的里程碑檢測來測驗孩子的溝通能力程度到哪裡吧！</item>
+        <item>每次檢測完後的分數占比以折線圖的形式記錄，方便您檢視孩子的溝通能力成長曲線。</item>
+        <item>每做完一次檢測，會為您的孩子增加一張里程碑卡片，而每張卡片都會記錄檢測的得分、孩子在該階段的發展程度分析等等…</item>
+        <item>對於孩子的溝通能力有任何的疑問嗎？那就請聊天機器人為您解答各種疑難雜症吧！</item>
+        <item>除了上述提到的功能以外，我們還為您整理了詞彙表、衛教知識等等的資料，趕快來進行更進一步的探索吧！</item>
+    </string-array>
+</resources>

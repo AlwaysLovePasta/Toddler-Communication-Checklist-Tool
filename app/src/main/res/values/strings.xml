@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">LISTEN &amp; TALK</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text">文字</string>
+    <string name="about_team">我們是來自東吳大學資訊管理學系的學生，「LISTEN &amp; TALK」是我們的畢業專題作品，經由教授的介紹，我們接觸了「開啟 0～3 歲寶寶的溝通語言天賦」這本書，並深入了解到臺灣的語言治療環境能提供的相關資源相當匱乏，使得家長們面臨無法及早發現孩子語言發展遲緩的窘境。
+為此我們參考「開啟 0～3 歲寶寶的溝通語言天賦」這本書整理的資料及檢測項目，設計出這款App，期望能協助家長們來檢視孩子是否可能有語言發展遲緩的傾向，以及提供即時的資訊，為家長縮短尋求語言治療資源的漫長過程。</string>
+    <string name="pk_talk">PK Talk 團隊</string>
+    <string name="about_pk_talk">「開啟 0～3 歲寶寶的溝通語言天賦」的著作團隊，由一群深耕兒童語言研究多年的語言治療師所組成。透過核心價值「親子對話，用心溝通」立志於帶領家庭及相關專業團隊成員一起提升兒童之語言能力及溝通發展。</string>
+
+    <string name="introChatbot">對語言發展想有更進一步的了解嗎？打開「L&amp;T小幫手」來搜尋更多知識吧！我們可以在「L&amp;T小幫手」上做什麼？\n1、測驗\n2、詢問問題Q&amp;A\n3、提供醫療資訊\n4、關於我們\n希望透過與「L&amp;T小幫手」的互動，能逐步解決您的問題！</string>
+
+    <string name="app_intro_content">歡迎您使用 LISTEN &amp; TALK！\n這是一款為家長們量身打造的幼兒溝通能力檢測工具，為了讓家長們可以更加瞭解孩子的語言發展程度並學習到如何培養孩子的基礎溝通能力，我們設計出以下這些功能，趕快來瞧瞧吧！</string>
+
+    <string name="glossary_context">＊詞彙來源自「開啟 0～3 歲寶寶的溝通語言天賦」，為尊重版權僅擷取部分內容，完整資料請參閱書籍。</string>
+
+    <string name="reference_desc">「開啟0–3歲寶寶的溝通語言天賦：語言治療師說給你聽」是一份獻給全世界華文家庭和相關領域朋友的禮物，提供了36個溝通語言能力發展原則、18個父母常見問題、寶寶300詞彙、語言能力發展里程碑海報以及聽語服務資訊！這麼充實的資訊一次呈現給您！</string>
+
+    <string name="drawer_open">Drawer Opened</string>
+    <string name="drawer_close">Drawer Closed</string>
+
+    <string name="addToddler">添加寶寶</string>
+    <string name="hint_toddlerName">寶寶的名字</string>
+    <string name="hint_birth">寶寶的生日</string>
+    <string name="btn_next">下一步</string>
+    <string name="btn_done">完成</string>
+
+    <string name="stepTitle01">基本資料</string>
+    <string name="stepTitle02">我是寶寶的</string>
+    <string name="stepTitle03">您與寶寶每日互動的時間為</string>
+    <string name="stepTitle04">寶寶目前身心發展的情形為</string>
+
+    <string name="hint_Resident">居住地</string>
+    <string name="hint_Time">每日互動時間</string>
+    <string name="hint_Dev">身心發展情形</string>
+    <string name="main_subtitle">0～3歲寶寶溝通能力檢測工具</string>
+    <string name="login_google">Google 帳號登入</string>
+    <string name="login_facebook">Facebook 帳號登入</string>
+    <string name="jump_page_title">登入中…</string>
+    <string name="login_email">電子信箱</string>
+    <string name="login_password">密碼</string>
+    <string name="login">註冊 | 登入</string>
+    <string name="main_login_other">以其它方式登入</string>
+    <string name="toChatbot">前往 LINE 聊天機器人</string>
+    <string name="hint_gender">寶寶的性別</string>
+    <string name="btn_nextQuestion">下一題</string>
+    <string name="checklist_menu_title">選擇您要檢測的里程碑項目</string>
+    <string name="start_test">進行檢測</string>
+    <string name="ability_listen">寶寶聽懂</string>
+    <string name="ability_talk">寶寶會說</string>
+    <string name="add_toddler">添加寶寶</string>
+    <string name="toddler_list">寶寶列表</string>
+    <string name="home_desc_empty">您目前尚未做過任何的檢測\n趕快為您的寶寶新增里程碑項目的檢測吧！</string>
+    <string name="view_detail">查看詳情</string>
+    <string name="edit_toddler_data">編輯寶寶資料</string>
+    <string name="hint_relationship">我是寶寶的</string>
+    <string name="hint_time">每日互動時間</string>
+    <string name="hint_level">身心發展情形</string>
+    <string name="btn_confirm_edit">確認修改</string>
+    <string name="dialog_title_loading">請稍候...</string>
+    <string name="about_us">關於我們</string>
+    <string name="save">保存</string>
+    <string name="score">得分</string>
+    <string name="totalScore">總分</string>
+    <string name="back_home">回首頁</string>
+    <string name="signOut">登出</string>
+    <string name="scu_csim">東吳大學資訊管理學系</string>
+    <string name="dialog_sign_out">確定要登出嗎？</string>
+    <string name="feedback">意見回饋</string>
+    <string name="feedback_rating">1. 請為您在 LISTEN &amp; TALK 上的體驗評分</string>
+    <string name="feedback_content">2. 請在下方輸入我們需要改進的地方</string>
+    <string name="btn_submit_feedback">確認送出</string>
+    <string name="app_intro">App介紹</string>
+    <string name="dialog_box_hint">完成這個階段的里程碑檢測後 <br />\n仍然可以再次進行檢測哦！</string>
+    <string name="glossary">詞彙表</string>
+
+</resources>

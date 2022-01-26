@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Fragments.HomeChart">
+
+    <include layout="@layout/item_chart"
+        android:visibility="invisible"/>
+
+    <include layout="@layout/item_fragment_home_empty"/>
+
+</RelativeLayout>

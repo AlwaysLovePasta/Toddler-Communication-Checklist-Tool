@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Fragments.ChecklistListenTopic"
+    android:layout_marginVertical="@dimen/_10sdp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="0sp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/gl_v_90"
+        app:layout_constraintStart_toStartOf="@+id/gl_v_10"
+        app:layout_constraintTop_toTopOf="parent"
+        app:cardCornerRadius="@dimen/_5sdp"
+        app:cardElevation="@dimen/_5sdp"
+        android:layout_marginVertical="@dimen/_10sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingVertical="@dimen/checklist_card_pv"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:textAppearance="@style/checklist_topicTextStyle"
+                android:id="@+id/topicNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/checklist_topicText_mb"
+                android:text="@string/text"
+                android:textSize="@dimen/checklist_topicTextSize"/>
+
+            <TextView
+                android:textAppearance="@style/checklist_descTextStyle"
+                android:id="@+id/topicDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/checklistOption_mh"
+                android:textSize="@dimen/checklist_descTextSize"
+                android:lineSpacingExtra="@dimen/_3sdp" />
+
+            <include layout="@layout/item_option_checklist_listen" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_v_10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.1" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_v_90"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.9" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

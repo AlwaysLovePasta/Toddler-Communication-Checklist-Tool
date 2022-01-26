@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="@dimen/rv_milestone_card_mh"
+    android:layout_marginTop="@dimen/rv_milestone_card_mt"
+    android:layout_marginBottom="@dimen/rv_milestone_card_mb"
+    app:cardCornerRadius="@dimen/_5sdp"
+    app:cardElevation="@dimen/_4sdp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/rv_milestone_layout_mv"
+        android:layout_marginHorizontal="@dimen/rv_milestone_layout_mh"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="@dimen/rv_milestone_firstRow_mb">
+
+            <TextView
+                android:id="@+id/month"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rectangle_solid_shadow_amber"
+                android:paddingHorizontal="@dimen/rv_milestone_monthText_ph"
+                android:paddingVertical="@dimen/rv_milestone_monthText_pv"
+                android:textColor="@color/white"
+                android:textSize="@dimen/rv_milestone_firstRow_textSize"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="end">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:text="@string/ability_listen"
+                    android:textColor="@color/lightBlue_400"
+                    android:textSize="@dimen/rv_milestone_firstRow_textSize" />
+
+                <TextView
+                    android:id="@+id/listenScore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/rv_milestone_firstRow_textSize" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="end">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:text="@string/ability_talk"
+                    android:textColor="@color/amber_400"
+                    android:textSize="@dimen/rv_milestone_firstRow_textSize" />
+
+                <TextView
+                    android:id="@+id/talkScore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/rv_milestone_firstRow_textSize" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="@dimen/rv_milestone_secondRow_ms">
+
+            <TextView
+                android:id="@+id/desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/rv_milestone_desc_textSize"
+                android:layout_marginBottom="@dimen/_5sdp"/>
+
+            <TextView
+                android:id="@+id/level"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/rv_milestone_level_textSize"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/detail"
+            android:layout_gravity="end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/view_detail"
+            android:gravity="center_vertical"
+            android:textColor="@color/grey_400"
+            app:drawableEndCompat="@drawable/ic_baseline_keyboard_arrow_right_24"
+            app:drawableTint="@color/grey_400" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

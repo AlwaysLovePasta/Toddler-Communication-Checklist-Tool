@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup
+    android:id="@+id/optionGroup"
+    android:theme="@style/Theme.AppCompat.DayNight"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="@dimen/checklistOptionGroup_mt"
+    android:layout_marginBottom="@dimen/checklistOptionGroup_mb">
+
+    <RadioButton
+        android:id="@+id/option01"
+        style="@style/checklistOption_style"
+        android:background="@drawable/btn_radio_checklist_amber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/checklist_option01"
+        android:textColor="@drawable/btn_radio_checklist_text"
+        android:textSize="@dimen/checklistOption_textSize"
+        android:paddingHorizontal="@dimen/checklistOption_ph"
+        android:paddingVertical="@dimen/checklistOption_pv"
+        android:layout_marginVertical="@dimen/checklistOption_mv"
+        android:layout_marginHorizontal="@dimen/checklistOption_mh" />
+
+    <RadioButton
+        android:id="@+id/option02"
+        style="@style/checklistOption_style"
+        android:background="@drawable/btn_radio_checklist_amber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/checklist_option02"
+        android:textColor="@drawable/btn_radio_checklist_text"
+        android:textSize="@dimen/checklistOption_textSize"
+        android:paddingHorizontal="@dimen/checklistOption_ph"
+        android:paddingVertical="@dimen/checklistOption_pv"
+        android:layout_marginVertical="@dimen/checklistOption_mv"
+        android:layout_marginHorizontal="@dimen/checklistOption_mh" />
+
+    <RadioButton
+        android:id="@+id/option03"
+        style="@style/checklistOption_style"
+        android:background="@drawable/btn_radio_checklist_amber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/checklist_option03"
+        android:textColor="@drawable/btn_radio_checklist_text"
+        android:textSize="@dimen/checklistOption_textSize"
+        android:paddingHorizontal="@dimen/checklistOption_ph"
+        android:paddingVertical="@dimen/checklistOption_pv"
+        android:layout_marginVertical="@dimen/checklistOption_mv"
+        android:layout_marginHorizontal="@dimen/checklistOption_mh" />
+
+    <RadioButton
+        android:id="@+id/option04"
+        style="@style/checklistOption_style"
+        android:background="@drawable/btn_radio_checklist_amber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/checklist_option04"
+        android:textColor="@drawable/btn_radio_checklist_text"
+        android:textSize="@dimen/checklistOption_textSize"
+        android:paddingHorizontal="@dimen/checklistOption_ph"
+        android:paddingVertical="@dimen/checklistOption_pv"
+        android:layout_marginVertical="@dimen/checklistOption_mv"
+        android:layout_marginHorizontal="@dimen/checklistOption_mh" />
+
+    <RadioButton
+        android:id="@+id/option05"
+        style="@style/checklistOption_style"
+        android:background="@drawable/btn_radio_checklist_amber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/checklist_option05"
+        android:textColor="@drawable/btn_radio_checklist_text"
+        android:textSize="@dimen/checklistOption_textSize"
+        android:paddingHorizontal="@dimen/checklistOption_ph"
+        android:paddingVertical="@dimen/checklistOption_pv"
+        android:layout_marginVertical="@dimen/checklistOption_mv"
+        android:layout_marginHorizontal="@dimen/checklistOption_mh" />
+
+</RadioGroup>

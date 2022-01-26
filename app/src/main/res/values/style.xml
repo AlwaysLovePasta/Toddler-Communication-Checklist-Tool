@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Activity: Login -->
+    <style name="logoText">
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/jf_open</item>
+        <item name="textAllCaps">true</item>
+    </style>
+
+    <style name="main_subtitle">
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/jf_open</item>
+    </style>
+
+    <style name="loginButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">?attr/colorOnSecondary</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:backgroundTint">?attr/colorOnPrimary</item>
+    </style>
+
+    <style name="main_loginButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@color/blueGrey_700</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:backgroundTint">?attr/colorSecondary</item>
+        <item name="cornerRadius">@dimen/_5sdp</item>
+    </style>
+
+    <!-- Activity: Jump Page -->
+    <style name="jump_page_textAppearance">
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+        <item name="fontFamily">@font/jf_open</item>
+    </style>
+
+    <!-- Activity: Add Toddler  -->
+    <style name="addToddler_btnStyle" parent="Widget.MaterialComponents.Button">
+        <item name="android:background">@drawable/rectangle_gradient_yellow_r25</item>
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <!-- Fragment: Add Toddler Step -->
+    <style name="step_button" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">@dimen/_10sdp</item>
+    </style>
+
+    <style name="step_buttonText" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="step_editText" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">?attr/colorSecondaryVariant</item>
+        <item name="hintTextColor">?attr/colorSecondaryVariant</item>
+    </style>
+
+    <style name="step_menu" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+        <item name="boxStrokeColor">?attr/colorSecondaryVariant</item>
+        <item name="hintTextColor">?attr/colorSecondaryVariant</item>
+    </style>
+
+    <style name="step_textInputTheme">
+        <item name="android:colorControlActivated">?attr/colorOnSecondary</item>
+    </style>
+
+    <!-- Fragment: Checklist -->
+    <style name="checklist_topicTextStyle" parent="Widget.AppCompat.TextView">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/blueGrey_700</item>
+    </style>
+
+    <style name="checklist_descTextStyle" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/blueGrey_700</item>
+    </style>
+
+    <!-- Fragment: Milestone Detail -->
+    <style name="scoreListenField" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/lightBlue_400</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+    <style name="milestoneDetail_tabTextAppearance">
+        <item name="android:textSize">@dimen/_14ssp</item>
+    </style>
+
+    <!-- Item: Nav Tab -->
+    <style name="item_navTab">
+        <item name="android:textSize">@dimen/_9ssp</item>
+    </style>
+
+    <!-- Item: Checklist Option -->
+    <style name="checklistOption_style" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:button">@null</item>
+        <item name="android:drawableEnd">@drawable/btn_radio_checklist_icon</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:elevation">4dp</item>
+    </style>
+
+    <!-- Text View Style-->
+    <style name="activityTitle" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">@dimen/_18ssp</item>
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+    </style>
+
+    <style name="stepTitle" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">@dimen/_18ssp</item>
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+    </style>
+
+    <!-- Text Input Layout Style -->
+    <style name="dataField" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="colorPrimary">?attr/colorSecondaryVariant</item>
+    </style>
+
+    <!-- Button Appearance-->
+    <style name="buttonText" parent="Widget.AppCompat.Button">
+        <item name="android:textSize">@dimen/_16ssp</item>
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Radio Button Appearance -->
+    <style name="optionText" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:textSize">@dimen/_16ssp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Card View Style -->
+    <style name="genderCard" parent="CardView">
+        <item name="android:layout_margin">@dimen/_20sdp</item>
+        <item name="cardCornerRadius">@dimen/_160sdp</item>
+        <item name="cardElevation">@dimen/_10sdp</item>
+    </style>
+
+    <!-- ShapeableImageView Shape Appearance -->
+    <style name="RoundedCorner" parent="">
+        <item name="cornerSize">10%</item>
+    </style>
+
+    <style name="Circle" parent="">
+        <item name="cornerSize">50%</item>
+    </style>
+
+</resources>

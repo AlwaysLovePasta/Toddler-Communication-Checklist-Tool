@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rectangle_gradient_amber"
+    tools:context=".Fragments.MilestoneDetailTalk">
+
+    <at.grabner.circleprogress.CircleProgressView
+        android:id="@+id/progressView"
+        android:layout_width="@dimen/milestoneDetail_progressBar_size"
+        android:layout_height="@dimen/milestoneDetail_progressBar_size"
+        app:cpv_autoTextSize="true"
+        app:cpv_barColor="?attr/colorOnPrimary"
+        app:cpv_blockCount="10"
+        app:cpv_innerContourSize="0dp"
+        app:cpv_maxValue="100"
+        app:cpv_outerContourSize="0dp"
+        app:cpv_rimColor="@color/white_A25"
+        app:cpv_showUnit="true"
+        app:cpv_textColor="?attr/colorOnPrimary"
+        app:cpv_textScale="0.85"
+        app:cpv_unit="%"
+        app:cpv_unitColor="?attr/colorOnPrimary"
+        app:cpv_value="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.27" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/scoreField"
+        android:layout_width="@dimen/milestoneDetail_scoreField_width"
+        android:layout_height="@dimen/milestoneDetail_scoreField_height"
+        app:cardCornerRadius="@dimen/_5sdp"
+        app:cardElevation="@dimen/_4sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/progressView"
+        app:layout_constraintVertical_bias="0.1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:text="@string/score"
+                    android:textAlignment="center"
+                    android:textColor="@color/amber_600"
+                    android:textSize="@dimen/milestoneDetailListen_textSize" />
+
+                <TextView
+                    android:id="@+id/score"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:textColor="@color/amber_600"
+                    android:textSize="@dimen/milestoneDetailListen_textSize" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="@dimen/_1sdp"
+                android:layout_height="match_parent"
+                android:layout_marginVertical="@dimen/_10sdp"
+                android:background="@color/grey_300" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:text="@string/totalScore"
+                    android:textAlignment="center"
+                    android:textColor="@color/amber_600"
+                    android:textSize="@dimen/milestoneDetailListen_textSize" />
+
+                <TextView
+                    android:id="@+id/totalScore"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:textColor="@color/amber_600"
+                    android:textSize="@dimen/milestoneDetailListen_textSize" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="@dimen/milestoneDetail_scoreField_width"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/_5sdp"
+        app:cardElevation="@dimen/_4sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scoreField"
+        app:layout_constraintVertical_bias="0.15">
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_15sdp"
+            android:lineSpacingExtra="@dimen/_10sdp"
+            android:textColor="@color/blueGrey_700"
+            android:textSize="@dimen/_12ssp" />
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

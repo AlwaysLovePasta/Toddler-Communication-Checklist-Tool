@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="@dimen/rv_monthV_ph"
+        android:paddingVertical="@dimen/rv_monthV_pv"
+        android:layout_margin="@dimen/_5sdp">
+
+        <View
+            android:id="@+id/icon"
+            android:layout_width="@dimen/rv_monthV_iconSize"
+            android:layout_height="@dimen/rv_monthV_iconSize"
+            android:background="@drawable/ic_pack_baby_crib"/>
+
+        <TextView
+            android:id="@+id/month"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/rv_monthV_monthSize"
+            android:text="@string/text"
+            android:layout_marginStart="15dp"/>
+
+        <TextView
+            android:id="@+id/number"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/rv_monthV_numberSize"
+            android:text="@string/text"
+            android:layout_weight="1"
+            android:textAlignment="textEnd"/>
+
+        <View
+            android:id="@+id/arrow"
+            android:layout_width="@dimen/rv_monthV_arrowSize"
+            android:layout_height="@dimen/rv_monthV_arrowSize"
+            android:background="@drawable/ic_baseline_keyboard_arrow_right_24"/>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#E0E0E0"
+        android:layout_marginHorizontal="@dimen/_15sdp"/>
+
+</LinearLayout>

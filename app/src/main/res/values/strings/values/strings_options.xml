@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dad">爸爸</string>
+    <string name="mom">媽媽</string>
+    <string name="grandpa">祖父</string>
+    <string name="grandma">祖母</string>
+
+    <string name="time01">少於 30 分鐘</string>
+    <string name="time02">30～60 分鐘</string>
+    <string name="time03">60～90 分鐘</string>
+    <string name="time04">90～120 分鐘</string>
+    <string name="time05">120 分鐘以上</string>
+
+    <string name="dev01">正常</string>
+    <string name="dev02">疑似遲緩</string>
+    <string name="dev03">遲緩</string>
+    <string name="dev04">不正常</string>
+
+    <string name="checklist_option01">總是</string>
+    <string name="checklist_option02">經常</string>
+    <string name="checklist_option03">大約一半的時間會</string>
+    <string name="checklist_option04">很少會</string>
+    <string name="checklist_option05">不會</string>
+</resources>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Activity: Main -->
+    <dimen name="logoIconSize">@dimen/_120sdp</dimen>
+    <dimen name="logoTextSize">@dimen/_26ssp</dimen>
+    <dimen name="logoTextMarginTop">@dimen/_12sdp</dimen>
+    <dimen name="main_subtitle">@dimen/_16ssp</dimen>
+    <dimen name="main_subtitleMarginTop">@dimen/_5sdp</dimen>
+    <dimen name="main_loginTextSize">@dimen/_10ssp</dimen>
+    <dimen name="main_loginPaddingVertical">@dimen/_5sdp</dimen>
+    <dimen name="main_editTextSize">@dimen/_10ssp</dimen>
+    <dimen name="main_editTextPadding">@dimen/_5ssp</dimen>
+    <dimen name="main_editTextVertical">@dimen/_3ssp</dimen>
+    <item name="logoIconVerticalBias" type="dimen" format="float" >0.07</item>
+    <item name="main_loginLayoutVerticalBias" type="dimen" format="float" >0.98</item>
+
+    <!-- Activity: Jump Page -->
+    <dimen name="jump_page_textSize">@dimen/_16ssp</dimen>
+    <dimen name="jump_page_SpinKitSize">@dimen/_90sdp</dimen>
+    <dimen name="jump_page_SpinKitPadding">@dimen/_18sdp</dimen>
+    <item name="jump_page_SpinKitVerticalBias" type="dimen" format="float">0.38</item>
+
+    <!-- Activity: Month Menu -->
+    <dimen name="monthMenu_card_mt">@dimen/_28sdp</dimen>
+    <dimen name="monthMenu_card_mb">@dimen/_55sdp</dimen>
+    <dimen name="monthMenu_titleSize">@dimen/_16ssp</dimen>
+
+    <!-- Activity: MileStone Detail -->
+    <dimen name="milestoneDetail_tab_Height">@dimen/_30sdp</dimen>
+
+    <!-- Fragment: Chatbot -->
+    <dimen name="chatbot_imgSize">@dimen/_220sdp</dimen>
+    <dimen name="chatbot_btnPaddingHorizontal">@dimen/_40sdp</dimen>
+    <dimen name="chatbot_btnMargin">@dimen/_90sdp</dimen>
+
+    <!-- Fragment: Add Toddler Steps -->
+    <dimen name="step_buttonCorner">@dimen/_7sdp</dimen>
+    <dimen name="step_textFieldWidth">@dimen/_180sdp</dimen>
+    <dimen name="step_imgSize">@dimen/_80sdp</dimen>
+    <dimen name="step_imgMarginBottom">@dimen/_12sdp</dimen>
+    <dimen name="step_formMarginTop">@dimen/_12sdp</dimen>
+    <dimen name="step_formMarginBottom">@dimen/_30sdp</dimen>
+    <dimen name="step_titleSize">@dimen/_14ssp</dimen>
+    <dimen name="step_buttonTextSize">@dimen/_14ssp</dimen>
+    <dimen name="step_optionMarginHorizontal">@dimen/_30sdp</dimen>
+    <dimen name="step_optionMarginVertical">@dimen/_18sdp</dimen>
+
+    <!-- Fragment: Checklist -->
+    <dimen name="checklist_card_pv">@dimen/_12sdp</dimen>
+    <dimen name="checklist_btnTextSize">@dimen/_12ssp</dimen>
+    <dimen name="checklist_btn_ph">@dimen/_22sdp</dimen>
+    <dimen name="checklist_btn_pv">@dimen/_5sdp</dimen>
+    <dimen name="checklist_icon_size">@dimen/_18sdp</dimen>
+    <dimen name="checklist_topicText_mb">@dimen/_8sdp</dimen>
+    <dimen name="checklist_topicTextSize">@dimen/_12ssp</dimen>
+    <dimen name="checklist_descTextSize">@dimen/_10ssp</dimen>
+    <dimen name="checklist_titleTextSize">@dimen/_14ssp</dimen>
+
+    <!-- Fragment: Milestone Detail -->
+    <dimen name="milestoneDetail_progressBar_size">@dimen/_100sdp</dimen>
+    <dimen name="milestoneDetail_scoreField_width">@dimen/_180sdp</dimen>
+    <dimen name="milestoneDetail_scoreField_height">@dimen/_50sdp</dimen>
+    <dimen name="milestoneDetailListen_textSize">@dimen/_12ssp</dimen>
+
+
+
+    <!-- Item: Toddler Profile Field -->
+    <dimen name="profileField_height">@dimen/_70sdp</dimen>
+    <dimen name="profileField_thumbnailSize">@dimen/_50sdp</dimen>
+    <dimen name="profileField_textFieldHeight">@dimen/_30sdp</dimen>
+    <dimen name="profileField_nameSize">@dimen/_14ssp</dimen>
+    <dimen name="profileField_monthSize">@dimen/_10ssp</dimen>
+    <dimen name="profileField_buttonWidth">@dimen/_80sdp</dimen>
+    <dimen name="profileField_buttonHeight">@dimen/_30sdp</dimen>
+    <dimen name="toddlerCard_height">@dimen/_70sdp</dimen>
+    <dimen name="toddlerCard_Margin">@dimen/_12sdp</dimen>
+
+    <!-- Item: Chart -->
+    <dimen name="chart_width">@dimen/_600sdp</dimen>
+    <dimen name="chart_height">@dimen/_250sdp</dimen>
+
+    <!-- Item: Form Data -->
+    <dimen name="form_width">@dimen/_180sdp</dimen>
+
+    <!-- Item: Gender Option -->
+    <dimen name="gender_textSize">@dimen/_12ssp</dimen>
+
+    <!-- Item: Relationship Option -->
+    <dimen name="relationship_textSize">@dimen/_12ssp</dimen>
+    <dimen name="relationship_elevation">@dimen/_4sdp</dimen>
+    <dimen name="relationship_mh">@dimen/_4sdp</dimen>
+    <dimen name="relationship_mv">@dimen/_10sdp</dimen>
+
+    <!-- Item: Checklist Option -->
+    <dimen name="checklistOption_textSize">@dimen/_10ssp</dimen>
+    <dimen name="checklistOption_pv">@dimen/_7sdp</dimen>
+    <dimen name="checklistOption_ph">@dimen/_25sdp</dimen>
+    <dimen name="checklistOption_mh">@dimen/_15sdp</dimen>
+    <dimen name="checklistOption_mv">@dimen/_7sdp</dimen>
+    <dimen name="checklistOptionGroup_mt">@dimen/_15sdp</dimen>
+    <dimen name="checklistOptionGroup_mb">@dimen/_5sdp</dimen>
+
+    <!-- Item: Recycler View Month of Checklist -->
+    <dimen name="rv_monthV_ph">@dimen/_15sdp</dimen>
+    <dimen name="rv_monthV_pv">@dimen/_10sdp</dimen>
+    <dimen name="rv_monthV_iconSize">@dimen/_25sdp</dimen>
+    <dimen name="rv_monthV_ms">@dimen/_15sdp</dimen>
+    <dimen name="rv_monthV_arrowSize">@dimen/_20sdp</dimen>
+    <dimen name="rv_monthV_monthSize">@dimen/_14ssp</dimen>
+    <dimen name="rv_monthV_numberSize">@dimen/_10ssp</dimen>
+
+    <!-- Item: Recycler View List of Milestone -->
+    <dimen name="rv_milestone_card_mh">@dimen/_15sdp</dimen>
+    <dimen name="rv_milestone_card_mt">@dimen/_5sdp</dimen>
+    <dimen name="rv_milestone_card_mb">@dimen/_15sdp</dimen>
+    <dimen name="rv_milestone_layout_mv">@dimen/_10sdp</dimen>
+    <dimen name="rv_milestone_layout_mh">@dimen/_15sdp</dimen>
+    <dimen name="rv_milestone_firstRow_mb">@dimen/_15sdp</dimen>
+    <dimen name="rv_milestone_firstRow_textSize">@dimen/_8ssp</dimen>
+    <dimen name="rv_milestone_secondRow_ms">@dimen/_10sdp</dimen>
+    <dimen name="rv_milestone_monthText_ph">@dimen/_7sdp</dimen>
+    <dimen name="rv_milestone_monthText_pv">@dimen/_3sdp</dimen>
+    <dimen name="rv_milestone_desc_textSize">@dimen/_10ssp</dimen>
+    <dimen name="rv_milestone_level_textSize">@dimen/_16ssp</dimen>
+    <dimen name="rv_milestone_detail_textSize">@dimen/_10ssp</dimen>
+
+    <!-- Item: Recycler View List of Toddler -->
+    <dimen name="rv_toddler_imageView_size">@dimen/_40sdp</dimen>
+    <dimen name="rv_toddler_name_textSize">@dimen/_12ssp</dimen>
+    <dimen name="rv_toddler_name_ms">@dimen/_15sdp</dimen>
+
+    <!-- Item: Main Drawer -->
+    <dimen name="mainDrawer_header_textSize">@dimen/_16ssp</dimen>
+    <dimen name="mainDrawer_btn_textSize">@dimen/_12ssp</dimen>
+    <dimen name="mainDrawer_btn_ph">@dimen/_25sdp</dimen>
+
+    <!-- Item: Drop Down Menu -->
+    <dimen name="downMenu_textSize">@dimen/_10ssp</dimen>
+    <dimen name="downMenu_ps">@dimen/_10sdp</dimen>
+    <dimen name="downMenu_pv">@dimen/_5sdp</dimen>
+
+    <!-- Drawable: Radio Button Gender -->
+    <dimen name="radioGender_backgroundSize">@dimen/_60sdp</dimen>
+    <dimen name="radioGender_iconSize">@dimen/_25sdp</dimen>
+    <dimen name="radioGender_radius">@dimen/_10sdp</dimen>
+
+    <!-- Radio Button -->
+    <dimen name="optionHeight">@dimen/_40sdp</dimen>
+    <dimen name="optionMarginVertical">@dimen/_10sdp</dimen>
+    <dimen name="optionElevation">@dimen/_5sdp</dimen>
+
+    <!-- Text Input Layout -->
+    <dimen name="menuWidth">@dimen/_200sdp</dimen>
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/profileField_height"
+    android:background="?attr/colorPrimary">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/toddlerImg"
+        android:layout_width="@dimen/profileField_thumbnailSize"
+        android:layout_height="@dimen/profileField_thumbnailSize"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:padding="@dimen/_5sdp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/pic_avatar"
+        app:shapeAppearanceOverlay="@style/Circle"
+        app:strokeColor="@color/amber_300"
+        app:strokeWidth="@dimen/_3sdp" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/profileField_textFieldHeight"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_toRightOf="@id/toddlerImg"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/toddlerName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="?attr/colorOnPrimary"
+                android:textSize="@dimen/profileField_nameSize"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/edit"
+                android:layout_width="@dimen/_10sdp"
+                android:layout_height="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:background="@drawable/ic_edit"
+                android:backgroundTint="@color/white" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/monthAge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text=""
+            android:textColor="@color/white_A80"
+            android:textSize="@dimen/profileField_monthSize" />
+
+    </RelativeLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnTest"
+        android:layout_width="@dimen/profileField_buttonWidth"
+        android:layout_height="@dimen/profileField_buttonHeight"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:backgroundTint="?attr/colorSecondary"
+        android:text="@string/start_test"
+        android:textColor="?attr/colorOnSecondary"
+        android:textStyle="bold"
+        app:cornerRadius="@dimen/_15sdp" />
+
+</RelativeLayout>

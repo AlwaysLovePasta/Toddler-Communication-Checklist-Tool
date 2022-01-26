@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/nameInputLayout"
+        style="@style/step_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_8sdp"
+        android:hint="@string/hint_toddlerName"
+        android:theme="@style/step_textInputTheme"
+        app:startIconDrawable="@drawable/ic_field_baby_name">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:maxLines="1"
+            android:textColor="@color/blueGrey_700" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/dateInputLayout"
+        style="@style/step_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_8sdp"
+        android:hint="@string/hint_birth"
+        android:theme="@style/step_textInputTheme"
+        app:startIconDrawable="@drawable/ic_field_month">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:inputType="none"
+            android:textColor="@color/blueGrey_700" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/genderInputLayout"
+        style="@style/step_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_8sdp"
+        android:hint="@string/hint_gender"
+        android:theme="@style/step_textInputTheme"
+        app:startIconDrawable="@drawable/ic_field_genders">
+
+        <com.google.android.material.textfield.MaterialAutoCompleteTextView
+            android:id="@+id/menuGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="none"
+            android:textColor="@color/blueGrey_700" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/residentInputLayout"
+        style="@style/step_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_8sdp"
+        android:hint="@string/hint_Resident"
+        android:theme="@style/step_textInputTheme"
+        app:startIconDrawable="@drawable/ic_field_location">
+
+        <com.google.android.material.textfield.MaterialAutoCompleteTextView
+            android:id="@+id/menuResident"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="none"
+            android:textColor="@color/blueGrey_700" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/relationshipInputLayout"
+        style="@style/step_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_8sdp"
+        android:hint="@string/hint_relationship"
+        android:theme="@style/step_textInputTheme"
+        app:startIconDrawable="@drawable/ic_field_family">
+
+        <com.google.android.material.textfield.MaterialAutoCompleteTextView
+            android:id="@+id/menuRelationship"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="none"
+            android:textColor="@color/blueGrey_700" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/timeInputLayout"
+        style="@style/step_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_8sdp"
+        android:hint="@string/hint_time"
+        android:theme="@style/step_textInputTheme"
+        app:startIconDrawable="@drawable/ic_field_time">
+
+        <com.google.android.material.textfield.MaterialAutoCompleteTextView
+            android:id="@+id/menuTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="none"
+            android:textColor="@color/blueGrey_700" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/levelInputLayout"
+        style="@style/step_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_8sdp"
+        android:hint="@string/hint_level"
+        android:theme="@style/step_textInputTheme"
+        app:startIconDrawable="@drawable/ic_field_level">
+
+        <com.google.android.material.textfield.MaterialAutoCompleteTextView
+            android:id="@+id/menuLevel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="none"
+            android:textColor="@color/blueGrey_700" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+</LinearLayout>

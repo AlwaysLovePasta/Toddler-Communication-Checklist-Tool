@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/optionGroup"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="@dimen/step_optionMarginHorizontal"
+    android:layout_marginVertical="@dimen/step_optionMarginVertical"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <RadioButton
+        android:id="@+id/optionTime01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/relationship_mh"
+        android:layout_marginVertical="@dimen/relationship_mv"
+        android:background="@drawable/btn_radio_state"
+        android:button="@null"
+        android:elevation="@dimen/relationship_elevation"
+        android:gravity="center"
+        android:text="@string/time01"
+        android:textColor="@drawable/btn_text_state"
+        android:textSize="@dimen/relationship_textSize"
+        android:textStyle="bold" />
+
+    <RadioButton
+        android:id="@+id/optionTime02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/relationship_mh"
+        android:layout_marginVertical="@dimen/relationship_mv"
+        android:background="@drawable/btn_radio_state"
+        android:button="@null"
+        android:elevation="@dimen/relationship_elevation"
+        android:gravity="center"
+        android:text="@string/time02"
+        android:textColor="@drawable/btn_text_state"
+        android:textSize="@dimen/relationship_textSize"
+        android:textStyle="bold" />
+
+    <RadioButton
+        android:id="@+id/optionTime03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/relationship_mh"
+        android:layout_marginVertical="@dimen/relationship_mv"
+        android:background="@drawable/btn_radio_state"
+        android:button="@null"
+        android:elevation="@dimen/relationship_elevation"
+        android:gravity="center"
+        android:text="@string/time03"
+        android:textColor="@drawable/btn_text_state"
+        android:textSize="@dimen/relationship_textSize"
+        android:textStyle="bold" />
+
+    <RadioButton
+        android:id="@+id/optionTime04"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/relationship_mh"
+        android:layout_marginVertical="@dimen/relationship_mv"
+        android:background="@drawable/btn_radio_state"
+        android:button="@null"
+        android:elevation="@dimen/relationship_elevation"
+        android:gravity="center"
+        android:text="@string/time04"
+        android:textColor="@drawable/btn_text_state"
+        android:textSize="@dimen/relationship_textSize"
+        android:textStyle="bold" />
+
+    <RadioButton
+        android:id="@+id/optionTime05"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/relationship_mh"
+        android:layout_marginVertical="@dimen/relationship_mv"
+        android:background="@drawable/btn_radio_state"
+        android:button="@null"
+        android:elevation="@dimen/relationship_elevation"
+        android:gravity="center"
+        android:text="@string/time05"
+        android:textColor="@drawable/btn_text_state"
+        android:textSize="@dimen/relationship_textSize"
+        android:textStyle="bold" />
+
+</RadioGroup>

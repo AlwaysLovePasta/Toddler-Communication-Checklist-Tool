@@ -1,0 +1,73 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Basic" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!-- Customized application theme. -->
+    <style name="Theme.App" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/lightBlue_300</item>
+        <item name="colorPrimaryVariant">@color/lightBlue_300</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/amber_300</item>
+        <item name="colorSecondaryVariant">@color/amber_600</item>
+        <item name="colorOnSecondary">@color/blueGrey_700</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="fontFamily">@font/jf_open</item>
+    </style>
+
+    <style name="actionBar" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="titleTextColor">?attr/colorOnPrimary</item>
+    </style>
+
+    <!-- Customize Rating Bar Star Color -->
+    <style name="ratingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/grey_400</item>
+        <item name="colorControlActivated">@color/amber_300</item>
+    </style>
+
+    <!-- Activity Theme-->
+    <style name="main" parent="Theme.App">
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="login" parent="Theme.App">
+        <item name="android:statusBarColor">@color/cyan_200</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="jump_page" parent="Theme.App">
+        <item name="android:statusBarColor">@color/cyan_200</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="addToddler" parent="Theme.App">
+        <item name="android:statusBarColor">@color/cyan_200</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="about" parent="Theme.App">
+        <item name="android:statusBarColor">@color/lightBlue_200</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="appIntroduce" parent="Theme.App">
+        <item name="android:statusBarColor">@color/cyan_200</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>

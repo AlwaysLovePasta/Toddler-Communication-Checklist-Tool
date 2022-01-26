@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 0～4個月-->
+    <!-- 寶寶聽懂題目敘述 -->
+    <string name="topic0_listen1">對大的聲音有反應。</string>
+    <string name="topic0_listen2">對寶寶說話時，寶寶會笑或安靜下來。</string>
+    <string name="topic0_listen3">能分辨他人的聲音。</string>
+    <string name="topic0_listen4">對環境中的聲音有反應，會轉動眼睛尋找聲音來源。</string>
+    <string name="topic0_listen5">對發光或發出聲音的玩具有反應。</string>
+    <!-- 寶寶會說題目敘述 -->
+    <string name="topic0_talk1">會發出一些聲音，如：呼嚕呼嚕、ㄚㄚ、嗯嗯。</string>
+    <string name="topic0_talk2">會因為肚子餓或尿布濕而發出不同哭聲。</string>
+    <string name="topic0_talk3">會看著人，並與人互動，會笑、會扭動身體。</string>
+    <string name="topic0_talk4">會發出兩種以上不一樣的聲音，如：嗚嗚、誒誒。</string>
+    <string name="topic0_talk5">會出聲音回應對自己說話的人。</string>
+
+    <!-- 4～8個月-->
+    <!-- 寶寶聽懂題目敘述 -->
+    <string name="topic1_listen1">能專注看著發出聲音的玩具，也能注意聽音樂。</string>
+    <string name="topic1_listen2">對他人所發出的不同音調有不同的反應，如：媽媽說話故意變聲調，寶寶會笑。</string>
+    <string name="topic1_listen3">對自己的名字有反應。</string>
+    <string name="topic1_listen4">聽到「不行、不可以」的指令時，會停下正在做的動作。</string>
+    <string name="topic1_listen5">能分辨不同口氣的聲音，產生不同的情緒反應。</string>
+    <!-- 寶寶會說題目敘述 -->
+    <string name="topic1_talk1">會玩自己的聲音或開始與他人互動。</string>
+    <string name="topic1_talk2">會發出聲音吸引他人。</string>
+    <string name="topic1_talk3">玩聲音的次數愈來愈頻繁，就像是與人對話。</string>
+    <string name="topic1_talk4">會發出一長串咿咿呀呀的聲音或笑聲。</string>
+    <string name="topic1_talk5">會用聲音表示心情愉快或不開心。</string>
+
+    <!-- 8～12個月-->
+    <!-- 寶寶聽懂題目敘述 -->
+    <string name="topic2_listen1">會轉頭看向他人指的方向。</string>
+    <string name="topic2_listen2">能找出生活中的常見物品或親人。</string>
+    <string name="topic2_listen3">聽到熟悉的兒歌會做出動作，如：聽到「造飛機」會晃動身體。</string>
+    <string name="topic2_listen4">在熟悉情境下可聽懂短句，如：媽媽在哪裡？（會尋找媽媽的位置）。</string>
+    <!-- 寶寶會說題目敘述 -->
+    <string name="topic2_talk1">會發出聲母＋韻母，如：ㄅㄚㄅㄚ、ㄉㄚㄉㄚ的重複聲音。</string>
+    <string name="topic2_talk2">會開始模仿他人說話。</string>
+    <string name="topic2_talk3">能使用肢體與人分享，如：用手指物品，並發出聲音吸引他人注意。</string>
+    <string name="topic2_talk4">會用簡單手勢或身體動作表示想法，如：揮手掰掰、搖頭表示不要。</string>
+    <string name="topic2_talk5">會開始模仿不同的聲音語調，如：ㄇㄟ、ㄅㄚ。</string>
+    <string name="topic2_talk6">能語音不清地說1到2個有意義的字，如：嗨、狗狗。</string>
+
+    <!-- 12～16個月-->
+    <!-- 寶寶聽懂題目敘述 -->
+    <string name="topic3_listen1">能執行有肢體提示的簡單指令，如：給我……、不行……。</string>
+    <string name="topic3_listen2">能指出5個自己的身體部位。</string>
+    <string name="topic3_listen3">能指出玩偶身上的身體部位。</string>
+    <string name="topic3_listen4">能聽懂沒有動作提示的指令並執行，如：坐下來、拍拍手。</string>
+    <!-- 寶寶會說題目敘述 -->
+    <string name="topic3_talk1">會主動發出聲音想要找他人說話或找他人一起遊戲。</string>
+    <string name="topic3_talk2">能叫出家人的稱謂。</string>
+    <string name="topic3_talk3">能說出熟悉的物品名稱。</string>
+    <string name="topic3_talk4">會以熟悉的名稱代替所有的相關物件，如：對著羊叫「狗狗」（四條腿的都叫狗狗）。</string>
+    <string name="topic3_talk5">能說出一些動作詞，如：喝喝、吃吃、打打等。</string>
+
+    <!-- 16～20個月-->
+    <!-- 寶寶聽懂題目敘述 -->
+    <string name="topic4_listen1">會與他人互動玩遊戲。</string>
+    <string name="topic4_listen2">能持續或專注地聽一個短篇故事或兒歌達2分鐘。</string>
+    <string name="topic4_listen3">能聽懂指令並完整的執行，如：拿爸爸的手機過來。</string>
+    <string name="topic4_listen4">在沒有提示的情境下能聽懂短語意義，如：在家聽到爸爸說要搭高鐵去出差，會拿出玩具火車表示搭高鐵。</string>
+    <!-- 寶寶會說題目敘述 -->
+    <string name="topic4_talk1">能看著圖片、書籍、相片等媒介說出內容名稱。</string>
+    <string name="topic4_talk2">能模仿環境中的聲音，如：汪汪、嘟嘟七恰（火車聲）。</string>
+    <string name="topic4_talk3">能以表情動作搭配口語表達各種意思。如：說「球球」，意思可以是「我想玩球」，也可以是「幫我撿球」。</string>
+    <string name="topic4_talk4">能說出兩種詞性像是動作詞＋名詞的短語，如：喝水水、丟球球。</string>
+    <string name="topic4_talk5">至少會100個詞彙。（請參考300詞彙表）。</string>
+
+    <!-- 20～24個月-->
+    <!-- 寶寶聽懂題目敘述 -->
+    <string name="topic5_listen1">能聽懂並完成連續兩個簡單的指令，如：先丟垃圾，再喝水。</string>
+    <string name="topic5_listen2">能聽懂簡單的問題，如：你的娃娃在哪裡？</string>
+    <string name="topic5_listen3">能持續約5分鐘的專注力，聽媽媽說故事或是聽音樂。</string>
+    <string name="topic5_listen4">能聽懂「A不A」的問句，如：吃飯好不好？要不要喝果汁？</string>
+    <!-- 寶寶會說題目敘述 -->
+    <string name="topic5_talk1">能說出兩種詞性像是「動作者＋動作詞」的語句，如：媽媽抱抱。</string>
+    <string name="topic5_talk2">能說出2~3個字數的短語，並組合成句子，如：媽媽飯飯燙燙。</string>
+    <string name="topic5_talk3">具備所有格的概念，如：爸爸的包包。</string>
+    <string name="topic5_talk4">會使用問句，如：這是什麼？</string>
+    <string name="topic5_talk5">至少會200個詞彙。（請參考300詞彙表）。</string>
+
+    <!-- 24～28個月-->
+    <!-- 寶寶聽懂題目敘述 -->
+    <string name="topic6_listen1">能理解方位詞，如：上、下、裡、外。</string>
+    <string name="topic6_listen2">能了解相對概念，如：快／慢、多／少。</string>
+    <string name="topic6_listen3">能了解較長而複雜語句，如：聽到「時間到了，要吃藥了」這句話，能自己拿藥請媽媽餵。</string>
+    <string name="topic6_listen4">能在情境下了解詞語的意義，如：在泳池玩水，能聽懂「泳圈」、「蛙鏡」、「潛水」等詞語。</string>
+    <!-- 寶寶會說題目敘述 -->
+    <string name="topic6_talk1">能直接以口語請求協助。</string>
+    <string name="topic6_talk2">能正確表達自己的身體狀況，如：手癢癢、頭痛痛。</string>
+    <string name="topic6_talk3">會正確使用代名詞你、我、他。</string>
+    <string name="topic6_talk4">能與他人一來一往輪流對話2～3句。</string>
+    <string name="topic6_talk5">至少會300個以上的詞彙。（請參閱300字詞彙表）。</string>
+
+    <!-- 28～32個月-->
+    <!-- 寶寶聽懂題目敘述 -->
+    <string name="topic7_listen1">已知道許多動詞的意思，如：能正確指認跑步的圖片。</string>
+    <string name="topic7_listen2">能聽懂許多問句並正確回應。</string>
+    <string name="topic7_listen3">專注聽故事的時間約能持續5到10分鐘。</string>
+    <string name="topic7_listen4">能聽懂「因為」稍複雜的語句，如：不可以吃冰，因為你感冒了。</string>
+    <!-- 寶寶會說題目敘述 -->
+    <string name="topic7_talk1">能描述不在現場的物品，如：在奶奶家能描述自己家裡的娃娃特徵。</string>
+    <string name="topic7_talk2">會使用完整的語句表達需求。</string>
+    <string name="topic7_talk3">會主動使用「A不A」的語句，如：玩球好不好。</string>
+    <string name="topic7_talk4">會使用「了」、「過」表達已完成的事項，如：吃飽了。</string>
+    <string name="topic7_talk5">會使用沒有連接詞的稍複雜語句，如：爸爸去上班、哥哥去上學。</string>
+
+    <!-- 32～36個月-->
+    <!-- 寶寶聽懂題目敘述 -->
+    <string name="topic8_listen1">能理解顏色詞，如：紅、綠。</string>
+    <string name="topic8_listen2">能理解形容詞，如：快的。</string>
+    <string name="topic8_listen3">能理解對話中斷時的狀況，如：跟阿公說話，突然想上廁所，回來後再繼續說。</string>
+    <string name="topic8_listen4">能理解數量詞，如：1隻狗、2顆蘋果、3本書。</string>
+    <string name="topic8_listen5">能聽懂稍複雜的「主詞＋動詞＋受詞」語句，如：恐怖的大野狼用力地撞豬大哥的門。</string>
+    <string name="topic8_listen6">能聽懂稍複雜的「主詞＋受詞＋動詞」語句，如：賣火柴的小女孩將最後一支火柴點燃了。</string>
+    <!-- 寶寶會說題目敘述 -->
+    <string name="topic8_talk1">能使用稍複雜的問句，如：他為什麼在睡覺？</string>
+    <string name="topic8_talk2">會使用「剛剛」、「剛才」等詞句，如：我剛剛有喝水了。</string>
+    <string name="topic8_talk3">會使用時間副詞，如：今天我要出去玩。</string>
+    <string name="topic8_talk4">會使用嘆詞表達情緒，如：哇！好多喔！</string>
+    <string name="topic8_talk5">會使用「把」字語句，如：我把牛奶喝完了。</string>
+    <string name="topic8_talk6">會使用「因為」的稍為複雜語句，如：玩具不要收，因為還要玩。</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:width="@dimen/radioGender_backgroundSize"
+        android:height="@dimen/radioGender_backgroundSize"
+        android:state_checked="false">
+        <shape android:shape="oval">
+            <solid android:color="#F06292" />
+            <corners android:radius="@dimen/radioGender_radius" />
+        </shape>
+    </item>
+
+    <item
+        android:width="@dimen/radioGender_iconSize"
+        android:height="@dimen/radioGender_iconSize"
+        android:drawable="@drawable/ic_gender_girl_white"
+        android:gravity="center" />
+
+</layer-list>
