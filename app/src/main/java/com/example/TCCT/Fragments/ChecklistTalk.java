@@ -93,7 +93,7 @@ public class ChecklistTalk extends Fragment {
     }
 
     private void testDoneDialog(Dialog dialog){
-        float width = requireActivity().getResources().getDimension(R.dimen._220sdp);
+        float width = requireActivity().getResources().getDimension(com.intuit.sdp.R.dimen._200sdp);
 
         dialog.setContentView(R.layout.dialog_test_done);
         dialog.getWindow().setBackgroundDrawable(ContextCompat.getDrawable(requireActivity(), R.drawable.rectangle_solid_corner_white));

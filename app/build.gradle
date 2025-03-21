@@ -3,12 +3,14 @@ plugins {
 }
 
 android {
-    compileSdk 31
+    compileSdk 34
+
+    namespace "com.example.TCCT"
 
     defaultConfig {
         applicationId "com.example.TCCT"
         minSdk 24
-        targetSdk 31
+        targetSdk 34
         versionCode 1
         versionName "1.0"
 
@@ -111,7 +113,7 @@ dependencies {
     //A powerful & easy to use chart library for Android
     implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
     //Image Cropping Library for Android, optimized for Camera / Gallery
-    api 'com.theartofdev.edmodo:android-image-cropper:2.8.+'
+    api 'com.vanniktech:android-image-cropper:4.6.0'
     //Animated circular progress view for Android
     implementation 'com.github.jakob-grabner:Circle-Progress-View:1.4'
 

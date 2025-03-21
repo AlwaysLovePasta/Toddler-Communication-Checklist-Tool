@@ -25,7 +25,7 @@ public class SignOutDialog {
 
     public void show() {
 
-        float width = activity.getResources().getDimension(R.dimen._220sdp);
+        float width = activity.getResources().getDimension(com.intuit.sdp.R.dimen._200sdp);
 
         dialog = new Dialog(activity);
         dialog.setContentView(R.layout.dialog_sign_out);

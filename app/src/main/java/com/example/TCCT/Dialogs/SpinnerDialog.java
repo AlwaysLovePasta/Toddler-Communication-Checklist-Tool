@@ -24,7 +24,7 @@ public class SpinnerDialog {
     }
 
     public void show() {
-        float boxWidth = context.getResources().getDimension(R.dimen._200sdp);
+        float boxWidth = context.getResources().getDimension(com.intuit.sdp.R.dimen._200sdp);
         dialog = new Dialog(context);
         dialog.setContentView(R.layout.dialog_loading);
         TextView progressTitle = dialog.findViewById(R.id.progressTitle);
